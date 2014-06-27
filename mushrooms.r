@@ -7,6 +7,7 @@ library(rpart)
 library(rattle)
 
 # read in mushroom data
+# one unimportant change
 
 mushrooms <- read.table ("http://archive.ics.uci.edu/ml/machine-learning-databases/mushroom/agaricus-lepiota.data", header=FALSE, sep=',')
 
